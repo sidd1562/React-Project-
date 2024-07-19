@@ -35,9 +35,9 @@ function App() {
   const [total, setTotal] = useState(0);
   const componentRef = useRef();
 
-  // function handlePrint() {
-  //   window.print();
-  // }
+  function handlePrint() {
+    window.print();
+  }
 
   return (
     <>
